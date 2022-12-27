@@ -12,7 +12,6 @@
     font-family: 'iran_sans_medi';
     src: url('../Fonts/iran_sans_medi.woff') format('woff');
 }
-
 *{
     font-family:iran_sans_light;
     margin: 0;
@@ -21,6 +20,7 @@
     outline: none;
     border: none;
     text-decoration: none;
+    text-transform: uppercase;
     transition: all .2s linear;
 }
 html{
@@ -71,7 +71,7 @@ header .icons a:hover{
     cursor: pointer;
     display: none;
 }
-/* end header */
+/* end header  */
 section{
     padding: 2rem 9%;
 }
@@ -381,7 +381,6 @@ section{
 .news .content h3{
     font-size: 2.5rem;
     color: #000;
-    text-transform: uppercase;
 }
 .news .content p{
     font-size: 1.5rem;
@@ -482,10 +481,10 @@ footer {
   }
   
   .category {
-    width: 200px;
+    width: 400px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(1, 2fr);
+    grid-gap: 5px;
     list-style: none;
   }
   
@@ -494,7 +493,7 @@ footer {
     text-transform: capitalize;
     color: black;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   
   .category .footer-link {
@@ -503,6 +502,7 @@ footer {
     color: black;
     font-size: 20px;
     margin-right: 100px;
+    margin-left: 100px;
   }
   
   .footer-link:hover {

@@ -1,20 +1,22 @@
 .product-container{
     padding: 0 10vw;
-    display: flex;
+    display:flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+    justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .product-container::-webkit-scrollbar{
     display: none;
-    float: left;
+    float: right;
 }
 
 .product-card{
-    flex: 0 0 auto;
-    width: 250px;
-    height: 450px;
-    margin-right: 40px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .product-image{

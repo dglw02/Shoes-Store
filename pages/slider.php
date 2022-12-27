@@ -1,7 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
 <section class="home" id="home">
-      <div class="slide-container active">
-        <div class="slide">
-          <div class="content">
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="content">
             <span>Nike Sneaker</span>
             <h3>NIKE AIR MAX PRE-DAY</h3>
             <p>
@@ -9,10 +17,10 @@
             fresh spin on what you know best: durably stitched overlays, clean finishes 
             and the perfect amount of flash to make you shine.
             </p>
-            <a href="#" class="btn">Add to cart</a>
-          </div>
-          <div class="image">
-            <a href=""><img src="img/shoes/nike1.png" class="shoe" />
+            <a href="Nike.php" class="btn">See more</a>
+                    </div>
+                    <div class="image">
+            <img src="img/shoes/nike1.png" class="shoe" />
           </div>
         </div>
       </div>
@@ -29,7 +37,7 @@
             <a href="#" class="btn">Add to cart</a>
           </div>
           <div class="image">
-            <a href=""><img src="img/shoes/adidas2.png" class="shoe" />
+            <img src="img/shoes/adidas2.png" class="shoe" />
           </div>
         </div>
       </div>
@@ -46,7 +54,7 @@
             <a href="#" class="btn">Add to cart</a>
           </div>
           <div class="image">
-            <a href=""><img src="img/shoes/nike2.png" class="shoe" />
+            <img src="img/shoes/nike2.png" class="shoe" />
           </div>
         </div>
       </div>
@@ -64,11 +72,19 @@
             <a href="#" class="btn">Add to cart</a>
           </div>
           <div class="image">
-            <a href=""><img src="img/shoes/puma1.png" class="shoe" />
+            <img src="img/shoes/puma1.png" class="shoe" />
           </div>
         </div>
       </div>
 
       <div id="prev" class="fa fa-angle-left" onclick="prev();"></div>
       <div id="next" class="fa fa-angle-right" onclick="next();"></div>
+      
     </section>
+
+</body>
+</html>
+
+
+
+    

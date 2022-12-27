@@ -1,7 +1,13 @@
+<!DOCTYPE html>
 <html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foot Shop</title>
   <head>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
   </head>
   <body>
     <!--begin header-->
@@ -29,53 +35,7 @@
     <!-- end information -->
 
     <!-- start blog -->
-    <section class="blog" id="blog">
-      <h1 class="heading">Team <span>Weblog</span></h1>
-      <div class="box-container">
-        <div class="box">
-          <a href=""><img src="img/team/person1.jpg" alt="" />
-          <h3>Nam Dương</h3>
-          <p>
-            Co-founder
-          </p>
-          <div class="stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa fa-star-half-o"></i>
-          </div>
-        </div>
-        <div class="box">
-          <a href=""><img src="img/team/person2.jpg" alt="" />
-          <h3>Hải Dương</h3>
-          <p>
-            Co-founder
-          </p>
-          <div class="stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa fa-star-half-o"></i>
-          </div>
-        </div>
-        <div class="box">
-          <a href=""><img src="img/team/person3.jpg" alt="" />
-          <h3>Elon Musk</h3>
-          <p>
-            Main Investor
-          </p>
-          <div class="stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa fa-star"></i>
-          </div>
-        </div>
-      </div>
-    </section>
+    <?php include("pages/blog.php") ?>;
     <!-- end blog -->
     <section class="news" id="news">
             <div class="content">
@@ -95,4 +55,3 @@
   <!--end footer-->
 </html>
 
-<script src="js/script.js"></script>
